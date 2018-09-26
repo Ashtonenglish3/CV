@@ -1,0 +1,105 @@
+ /* font applies to whole page */
+*{
+  font-family: 'Signika Negative', sans-serif;
+}
+
+/* scroll-behavior */
+html{
+  scroll-behavior: smooth;
+}
+
+/* nav bar properties */
+.navbar {
+    z-index: 1;
+    margin: 0;
+    padding: 0;
+    overflow: visible;
+    background-color: #000;
+    font-family: 'Libre Baskerville', serif;
+    width: 100%;
+    position: fixed;
+
+}
+
+.navbar a{
+    float: left;
+    display:block;
+    color: white ;
+    text-align:center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    padding-left: 250px ;
+
+}
+
+.navbar a:hover{
+    background-color: #3366ff;
+
+}
+
+.main {
+    margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+h1{
+  text-align: center;
+   font-size: 50px;
+   color:white;
+   text-shadow: 3px 2px #BA917B;
+   letter-spacing: 3px;
+
+}
+
+h2{
+  text-align: center;
+  letter-spacing: 3px;
+
+}
+
+img  {
+    float: left;
+   padding-right: 15px;
+   padding-top: 50px;
+
+}
+h3{
+  padding-top: 50px;
+  font-size: 40px;
+  color: #3366ff;
+  padding-left: 10px;
+  letter-spacing: 3px;
+}
+
+h4{
+  font-size: 19px;
+  color: white;
+    padding-left: 10px;
+    letter-spacing: 3px;
+    padding-left: 60px;
+    text-shadow: 3px 2px  #3366ff;
+}
+p{
+  color: white;
+    padding-left: 60px;
+    font-size: 18px;
+    line-height: 23px;
+    letter-spacing: 3px;
+}
+.Left {
+    margin-left: 5px;
+    padding-bottom: 50%;
+    padding: 1px;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+/* max 600px mobile .... tablets 768 min....desktop 992px */
+@media only screen and (max-width: 600px){
